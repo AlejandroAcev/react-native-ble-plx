@@ -116,7 +116,7 @@ android {
 4. In `AndroidManifest.xml`, add Bluetooth permissions and update `<uses-sdk/>`:
 
 ```xml
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
     ...
     <uses-permission android:name="android.permission.BLUETOOTH"/>
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
